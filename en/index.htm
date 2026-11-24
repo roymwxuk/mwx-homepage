@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kashiwagi Masato | Backend and AI engineer</title>
+  <meta name="description" content="I build LLM applications and improve them through evaluation and output checks. On the backend, I work from API and database design through to cloud deployment.">
+  <link rel="canonical" href="https://roymwxuk.uk/en/index.htm">
+  <link rel="alternate" hreflang="ja" href="https://roymwxuk.uk/ja/index.htm">
+  <link rel="alternate" hreflang="en" href="https://roymwxuk.uk/en/index.htm">
+  <link rel="icon" href="../images/favicon.png" type="image/png" sizes="48x48">
+  <link rel="apple-touch-icon" href="../images/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&family=Shippori+Mincho:wght@500;700&display=swap">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="wrap">
+  <header class="top">
+    <div class="brand">
+      <img src="../images/logo-mwx.webp" alt="" width="39" height="39">
+      <div>
+        <h1 class="name"><span class="phrase">Kashiwagi Masato</span> <span class="phrase">(LU RUILIN)</span></h1>
+        <p class="handle">roymwxuk</p>
+      </div>
+    </div>
+    <nav class="lang" aria-label="Language / 言語">
+      <a href="../ja/index.htm" lang="ja" hreflang="ja">日本語</a>
+      <a href="../en/index.htm" lang="en" hreflang="en" aria-current="page">English</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="intro" aria-label="Profile">
+      <div class="intro-head">
+        <p class="role">Backend and AI engineer</p>
+        <p class="lead">I build LLM applications and improve them through evaluation and output checks. On the backend, I work from API and database design through to cloud deployment. I start with the problem, compare approaches, and build the one that fits.</p>
+      </div>
+      <dl class="profile">
+        <div><dt>Location</dt><dd>Tokyo, Japan</dd></div>
+        <div><dt>Focus</dt><dd>Backend development, LLM applications, AWS infrastructure design</dd></div>
+        <div><dt>Certified</dt><dd>Microsoft Azure AI Apps and Agents Developer Associate (AI-103)</dd></div>
+        <div><dt>Links</dt><dd><ul>
+          <li><a href="https://github.com/roymwxuk">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/masato-kashiwagi/">LinkedIn</a></li>
+        </ul></dd></div>
+      </dl>
+    </section>
+
+    <section class="section" aria-labelledby="projects">
+      <div class="section-head">
+        <h2 id="projects">Projects</h2>
+        <p>Personal projects in backend engineering, AI, and maps.</p>
+      </div>
+      <ul class="grid">
+      <li class="work">
+        <a class="shot" href="https://formline-web.bravestone-2a024c10.japaneast.azurecontainerapps.io" tabindex="-1" aria-hidden="true"><img src="../images/formline.webp" alt="" width="960" height="600" loading="lazy"></a>
+        <h3><a href="https://formline-web.bravestone-2a024c10.japaneast.azurecontainerapps.io">Formline</a></h3>
+        <p class="desc">Built for a Microsoft hackathon. Analyzes synthetic match data and writes sourced commentary in Japanese and English.</p>
+        <dl class="spec">
+          <div><dt>Focus</dt><dd>Verifying LLM output and improving it through evaluation</dd></div>
+          <div><dt>Stack</dt><dd>Python, FastAPI, Microsoft Agent Framework, Next.js, Azure</dd></div>
+          <div><dt>Result</dt><dd>Caught 99.3% of 1,066 injected errors, 0 false positives</dd></div>
+        </dl>
+        <p class="more"><a href="https://formline-web.bravestone-2a024c10.japaneast.azurecontainerapps.io" aria-label="Formline: View demo">View demo</a><a href="https://github.com/roymwxuk/mwx-hackathon-formline" aria-label="Formline: Source code">Source code</a></p>
+        <p class="note">Runs on Azure Container Apps. First load takes about 30 s.</p>
+      </li>
+      <li class="work">
+        <div class="shot"><img src="../images/flash-sale.svg" alt="Units oversold in load tests with 10,000 buyers and 100 units, worst of 3 runs: naive 1,683, atomic 0, row lock 0" width="640" height="400" loading="lazy"></div>
+        <h3><a href="https://github.com/roymwxuk/mwx-go-flash-sale">Flash Sale API</a></h3>
+        <p class="desc">An API tested to never oversell when buyers rush a limited sale.</p>
+        <dl class="spec">
+          <div><dt>Focus</dt><dd>Inventory consistency under concurrent orders, comparing three approaches</dd></div>
+          <div><dt>Stack</dt><dd>Go, PostgreSQL, Docker</dd></div>
+          <div><dt>Result</dt><dd>0 oversold with 10,000 simulated buyers</dd></div>
+        </dl>
+        <p class="more"><a href="https://github.com/roymwxuk/mwx-go-flash-sale" aria-label="Flash Sale API: Source code">Source code</a></p>
+      </li>
+      <li class="work">
+        <a class="shot" href="https://candidate-hub.demo.roymwxuk.uk/" tabindex="-1" aria-hidden="true"><img src="../images/candidate-hub.webp" alt="" width="728" height="455" loading="lazy"></a>
+        <h3><a href="https://candidate-hub.demo.roymwxuk.uk/">Candidate Hub</a></h3>
+        <p class="desc">A hiring app that reads Japanese résumés with AI for a person to check and register.</p>
+        <dl class="spec">
+          <div><dt>Focus</dt><dd>Three layers of AI output checks, plus human review</dd></div>
+          <div><dt>Stack</dt><dd>PHP, Laravel, Python, FastAPI, Azure OpenAI</dd></div>
+          <div><dt>Result</dt><dd>Public demo</dd></div>
+        </dl>
+        <p class="more"><a href="https://candidate-hub.demo.roymwxuk.uk/" aria-label="Candidate Hub: View demo">View demo</a><a href="https://github.com/roymwxuk/mwx-laravel-candidate-hub" aria-label="Candidate Hub: Source code">Source code</a></p>
+      </li>
+      <li class="work">
+        <a class="shot" href="https://cardwisser.roymwxuk.uk" tabindex="-1" aria-hidden="true"><img src="../images/cardwisser.webp" alt="" width="1000" height="625" loading="lazy"></a>
+        <h3><a href="https://cardwisser.roymwxuk.uk">CardWisser</a></h3>
+        <p class="desc">A flashcard service for people learning Japanese.</p>
+        <dl class="spec">
+          <div><dt>Focus</dt><dd>LLM-generated explanation cards, with audio</dd></div>
+          <div><dt>Stack</dt><dd>TypeScript, Next.js, NestJS, MongoDB Atlas, AWS, LLM and speech APIs</dd></div>
+          <div><dt>Result</dt><dd>Live service</dd></div>
+        </dl>
+        <p class="more"><a href="https://cardwisser.roymwxuk.uk" aria-label="CardWisser: View site">View site</a></p>
+      </li>
+      <li class="work">
+        <a class="shot" href="https://roymwxuk.github.io/mwx-sengoku-app/" tabindex="-1" aria-hidden="true"><img src="../images/sengoku-castle-map.webp" alt="" width="1056" height="600" loading="lazy"></a>
+        <h3><a href="https://roymwxuk.github.io/mwx-sengoku-app/">Sengoku Castle Map</a></h3>
+        <p class="desc">An interactive map showing how Sengoku-era castles and clans changed over time.</p>
+        <dl class="spec">
+          <div><dt>Focus</dt><dd>Castle owners by year, and typo-tolerant search</dd></div>
+          <div><dt>Stack</dt><dd>TypeScript, React, MapLibre GL</dd></div>
+          <div><dt>Result</dt><dd>v1.0 released with 124 castles</dd></div>
+        </dl>
+        <p class="more"><a href="https://roymwxuk.github.io/mwx-sengoku-app/" aria-label="Sengoku Castle Map: View site">View site</a><a href="https://github.com/roymwxuk/mwx-sengoku-app" aria-label="Sengoku Castle Map: Source code">Source code</a></p>
+      </li>
+      <!-- Hidden for now: remove these comment markers to show SketchSeat again.
+      <li class="work">
+        <div class="shot"><img src="../images/sketchseat-concept.svg" alt="Concept drawing: AI turns a hand-drawn floor plan into a table layout with one table selected" width="640" height="400" loading="lazy"></div>
+        <h3>SketchSeat</h3>
+        <p class="desc">A planned app that uses AI to turn a hand-drawn restaurant floor plan into a layout with selectable tables.</p>
+        <dl class="spec">
+          <div><dt>Focus</dt><dd>AI image structuring with a Java backend</dd></div>
+          <div><dt>Stack</dt><dd>Java, Spring Boot, PostgreSQL, TypeScript, LLM</dd></div>
+          <div><dt>Plan</dt><dd>Image upload, AI conversion to a layout, table selection (in development)</dd></div>
+        </dl>
+      </li>
+      -->
+      </ul>
+    </section>
+
+    <section class="section" aria-labelledby="skills">
+      <div class="section-head">
+        <h2 id="skills">Skills and certifications</h2>
+        <p>Technologies used in my personal projects, and certifications I hold.</p>
+      </div>
+      <table class="table">
+        <tbody>
+          <tr><th scope="row">Languages</th><td>Go, Python, TypeScript, PHP</td></tr>
+          <tr><th scope="row">Backend</th><td>Node.js, NestJS, FastAPI, Laravel, REST APIs</td></tr>
+          <tr><th scope="row">Databases</th><td>PostgreSQL, MongoDB</td></tr>
+          <tr><th scope="row">Cloud and operations</th><td>AWS, Azure, Docker, CI/CD</td></tr>
+          <tr><th scope="row">AI</th><td>LLM integration, AI agents, output verification, evaluation</td></tr>
+          <tr><th scope="row">Certifications</th><td>Microsoft Certified: Azure AI Apps and Agents Developer Associate (AI-103, Nov 2026), MongoDB Associate Database Admin (Feb 2023)</td></tr>
+          <tr><th scope="row">Spoken languages</th><td>English, Japanese, Chinese</td></tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <footer>© 2026 Kashiwagi Masato</footer>
+</div>
+</body>
+</html>

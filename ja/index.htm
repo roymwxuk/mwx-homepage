@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kashiwagi Masato | バックエンド・AIエンジニア</title>
+  <meta name="description" content="LLMを組み込んだアプリケーションを、評価と出力検証を重ねながら開発。バックエンドは、APIやデータベースの設計からクラウドへのデプロイまで対応。">
+  <link rel="canonical" href="https://roymwxuk.uk/ja/index.htm">
+  <link rel="alternate" hreflang="ja" href="https://roymwxuk.uk/ja/index.htm">
+  <link rel="alternate" hreflang="en" href="https://roymwxuk.uk/en/index.htm">
+  <link rel="icon" href="../images/favicon.png" type="image/png" sizes="48x48">
+  <link rel="apple-touch-icon" href="../images/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&family=Shippori+Mincho:wght@500;700&display=swap">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<a class="skip" href="#main">本文へ移動</a>
+<div class="wrap">
+  <header class="top">
+    <div class="brand">
+      <img src="../images/logo-mwx.webp" alt="" width="39" height="39">
+      <div>
+        <h1 class="name"><span class="phrase">Kashiwagi Masato</span> <span class="phrase">(LU RUILIN)</span></h1>
+        <p class="handle">roymwxuk</p>
+      </div>
+    </div>
+    <nav class="lang" aria-label="Language / 言語">
+      <a href="../ja/index.htm" lang="ja" hreflang="ja" aria-current="page">日本語</a>
+      <a href="../en/index.htm" lang="en" hreflang="en">English</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="intro" aria-label="プロフィール">
+      <div class="intro-head">
+        <p class="role"><span class="phrase">バックエンド・</span><span class="phrase">AIエンジニア</span></p>
+        <p class="lead">LLMを組み込んだアプリケーションを、評価と出力検証を重ねながら開発。バックエンドは、APIやデータベースの設計からクラウドへの<span class="phrase">デプロイまで対応。</span>解くべき課題を整理し、複数の方法を比較したうえで<span class="phrase">設計・実装。</span></p>
+      </div>
+      <dl class="profile">
+        <div><dt>所在地</dt><dd>東京</dd></div>
+        <div><dt>専門</dt><dd><span class="phrase">バックエンド開発、</span><span class="phrase">LLMアプリケーション開発、</span><span class="phrase">AWSインフラ設計</span></dd></div>
+        <div><dt>資格</dt><dd>Microsoft Certified: Azure AI Apps and Agents Developer Associate<span class="phrase">（AI-103）</span></dd></div>
+        <div><dt>連絡先</dt><dd><ul>
+          <li><a href="https://github.com/roymwxuk">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/masato-kashiwagi/">LinkedIn</a></li>
+        </ul></dd></div>
+      </dl>
+    </section>
+
+    <section class="section" aria-labelledby="projects">
+      <div class="section-head">
+        <h2 id="projects">制作物</h2>
+        <p>バックエンド、AI活用、地図に関する個人開発。</p>
+      </div>
+      <ul class="grid">
+      <li class="work">
+        <a class="shot" href="https://formline-web.bravestone-2a024c10.japaneast.azurecontainerapps.io" tabindex="-1" aria-hidden="true"><img src="../images/formline.webp" alt="" width="960" height="600" loading="lazy"></a>
+        <h3><a href="https://formline-web.bravestone-2a024c10.japaneast.azurecontainerapps.io">Formline</a></h3>
+        <p class="desc">Microsoftハッカソンで開発。合成した試合データを分析し、出典付きの日英解説を生成。</p>
+        <dl class="spec">
+          <div><dt>テーマ</dt><dd>LLMの出力検証と、評価に基づく改善</dd></div>
+          <div><dt>技術</dt><dd>Python, FastAPI, Microsoft Agent Framework, Next.js, Azure</dd></div>
+          <div><dt>成果</dt><dd>誤り1,066件の99.3%を検出・誤検知0件</dd></div>
+        </dl>
+        <p class="more"><a href="https://formline-web.bravestone-2a024c10.japaneast.azurecontainerapps.io" aria-label="Formline：デモを見る">デモを見る</a><a href="https://github.com/roymwxuk/mwx-hackathon-formline" aria-label="Formline：ソースコード">ソースコード</a></p>
+        <p class="note">Azure Container Appsで稼働。初回の起動に約30秒。</p>
+      </li>
+      <li class="work">
+        <div class="shot"><img src="../images/flash-sale.svg" alt="負荷試験の売り越し数（購入者1万人・在庫100個、3回のうち最悪値）：Naive 1,683個、Atomic 0個、Row lock 0個" width="640" height="400" loading="lazy"></div>
+        <h3><a href="https://github.com/roymwxuk/mwx-go-flash-sale">フラッシュセール在庫確保API</a></h3>
+        <p class="desc">限定販売に購入が集中しても、売り越さないことを検証したAPI。</p>
+        <dl class="spec">
+          <div><dt>テーマ</dt><dd>同時注文時の在庫整合性<span class="phrase">（3方式を比較）</span></dd></div>
+          <div><dt>技術</dt><dd>Go, PostgreSQL, Docker</dd></div>
+          <div><dt>成果</dt><dd>1万人の負荷試験で売り越し0件</dd></div>
+        </dl>
+        <p class="more"><a href="https://github.com/roymwxuk/mwx-go-flash-sale" aria-label="フラッシュセール在庫確保API：ソースコード">ソースコード</a></p>
+      </li>
+      <li class="work">
+        <a class="shot" href="https://candidate-hub.demo.roymwxuk.uk/" tabindex="-1" aria-hidden="true"><img src="../images/candidate-hub.webp" alt="" width="728" height="455" loading="lazy"></a>
+        <h3><a href="https://candidate-hub.demo.roymwxuk.uk/">Candidate Hub</a></h3>
+        <p class="desc">日本語の履歴書をAIで読み取り、人が確認して登録する採用管理アプリ。</p>
+        <dl class="spec">
+          <div><dt>テーマ</dt><dd>AI出力の3層検証と、人による確認</dd></div>
+          <div><dt>技術</dt><dd>PHP, Laravel, Python, FastAPI, Azure OpenAI</dd></div>
+          <div><dt>成果</dt><dd>デモを公開</dd></div>
+        </dl>
+        <p class="more"><a href="https://candidate-hub.demo.roymwxuk.uk/" aria-label="Candidate Hub：デモを見る">デモを見る</a><a href="https://github.com/roymwxuk/mwx-laravel-candidate-hub" aria-label="Candidate Hub：ソースコード">ソースコード</a></p>
+      </li>
+      <li class="work">
+        <a class="shot" href="https://cardwisser.roymwxuk.uk" tabindex="-1" aria-hidden="true"><img src="../images/cardwisser.webp" alt="" width="1000" height="625" loading="lazy"></a>
+        <h3><a href="https://cardwisser.roymwxuk.uk">CardWisser</a></h3>
+        <p class="desc">日本語学習向けのフラッシュカードサービス。</p>
+        <dl class="spec">
+          <div><dt>テーマ</dt><dd>LLMによる解説カード生成と音声付与</dd></div>
+          <div><dt>技術</dt><dd>TypeScript, Next.js, NestJS, MongoDB Atlas, AWS, LLM・音声生成API</dd></div>
+          <div><dt>成果</dt><dd>サービスを公開</dd></div>
+        </dl>
+        <p class="more"><a href="https://cardwisser.roymwxuk.uk" aria-label="CardWisser：公開サイトを見る">公開サイトを見る</a></p>
+      </li>
+      <li class="work">
+        <a class="shot" href="https://roymwxuk.github.io/mwx-sengoku-app/" tabindex="-1" aria-hidden="true"><img src="../images/sengoku-castle-map.webp" alt="" width="1056" height="600" loading="lazy"></a>
+        <h3><a href="https://roymwxuk.github.io/mwx-sengoku-app/">戦国城地図</a></h3>
+        <p class="desc">戦国時代の城と大名家の移り変わりを、年代別に見られる地図。</p>
+        <dl class="spec">
+          <div><dt>テーマ</dt><dd>年代別の城主表示と、あいまい検索</dd></div>
+          <div><dt>技術</dt><dd>TypeScript, React, MapLibre GL</dd></div>
+          <div><dt>成果</dt><dd>v1.0を公開・124城を収録</dd></div>
+        </dl>
+        <p class="more"><a href="https://roymwxuk.github.io/mwx-sengoku-app/" aria-label="戦国城地図：公開サイトを見る">公開サイトを見る</a><a href="https://github.com/roymwxuk/mwx-sengoku-app" aria-label="戦国城地図：ソースコード">ソースコード</a></p>
+      </li>
+      <!-- Hidden for now: remove these comment markers to show SketchSeat again.
+      <li class="work">
+        <div class="shot"><img src="../images/sketchseat-concept.svg" alt="構想図：手描きの店内図をAIが座席図に変換し、テーブルを1つ選択した状態" width="640" height="400" loading="lazy"></div>
+        <h3>SketchSeat</h3>
+        <p class="desc">店内図の手描き画像をAIが構造化し、テーブルを選べる座席図に変換する計画。</p>
+        <dl class="spec">
+          <div><dt>テーマ</dt><dd>AIによる画像の構造化と、Javaバックエンド</dd></div>
+          <div><dt>技術</dt><dd>Java, Spring Boot, PostgreSQL, TypeScript, LLM</dd></div>
+          <div><dt>計画</dt><dd>画像のアップロード、AIによる座席図への変換、テーブルの選択（開発中）</dd></div>
+        </dl>
+      </li>
+      -->
+      </ul>
+    </section>
+
+    <section class="section" aria-labelledby="skills">
+      <div class="section-head">
+        <h2 id="skills">技術・資格</h2>
+        <p>個人開発で使用した技術と、取得した資格。</p>
+      </div>
+      <table class="table">
+        <tbody>
+          <tr><th scope="row">言語</th><td>Go, Python, TypeScript, PHP</td></tr>
+          <tr><th scope="row">バックエンド</th><td>Node.js, NestJS, FastAPI, Laravel, REST API</td></tr>
+          <tr><th scope="row">データベース</th><td>PostgreSQL, MongoDB</td></tr>
+          <tr><th scope="row">クラウド・運用</th><td>AWS, Azure, Docker, CI/CD</td></tr>
+          <tr><th scope="row">AI</th><td>LLM連携, AIエージェント, 出力検証, 評価</td></tr>
+          <tr><th scope="row">資格</th><td>Microsoft Certified: Azure AI Apps and Agents Developer Associate（AI-103、2026年11月）、MongoDB Associate Database Admin（2023年2月）</td></tr>
+          <tr><th scope="row">語学</th><td>英語、日本語、中国語</td></tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <footer>© 2026 Kashiwagi Masato</footer>
+</div>
+</body>
+</html>
